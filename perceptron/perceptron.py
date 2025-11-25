@@ -46,7 +46,7 @@ class Perceptron:
         inputs_dot_ = np.dot(inputs, self.weights)+ self.bias
         return self.activation(inputs_dot_)
 
-    def train(self, inputs, targets, epochs=0):
+    def train(self, inputs, targets, epochs=20):
         """
         :param inputs:
         :param targets:
